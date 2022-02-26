@@ -38,7 +38,7 @@ func FizBuz(in string) (string, error) {
 	case i%5 == 0:
 		// 5の倍数ならBuzz
 		return "Buzz", nil
-	case i%3　 == 0:
+	case i%3 == 0:
 		// 15の倍数ならFizzBuzz
 		return "FizzBuzz", nil
 	}
